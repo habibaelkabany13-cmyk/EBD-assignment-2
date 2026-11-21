@@ -40,3 +40,50 @@
 
 /* TODO: a rule for `.price` that sets
  *       color, and font-weight. */
+
+/* Body: the overall page */
+body {
+  font-family: Arial, sans-serif;
+  color: #263238;
+  background-color: #f2f4f7;
+}
+
+/* Page: controls the width and centres the content */
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header: puts the title and navigation in one row */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Navigation links */
+nav a {
+  color: #174ea6;
+  text-decoration: none;
+}
+
+/* Cards: arranged in a flexible row */
+.card-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Individual cards */
+.card {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+/* Prices */
+.price {
+  color: #176b35;
+  font-weight: bold;
+}
